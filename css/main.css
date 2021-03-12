@@ -44,12 +44,16 @@ html {
 hr {
   display: block;
   height: 1px;
-  border: 0;
+  border: 2;
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
+
 }
 
+textarea {
+  resize: vertical;
+}
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
@@ -80,7 +84,7 @@ fieldset {
  */
 
 textarea {
-  resize: vertical;
+  resize: verticalh;
 }
 
 /* ==========================================================================
@@ -196,11 +200,12 @@ textarea {
   *,
   *::before,
   *::after {
-    background: #fff !important;
+    background: rgb(255, 255, 255) !important;
     color: #000 !important;
     /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
+
   }
 
   a,
@@ -260,4 +265,48 @@ textarea {
     page-break-after: avoid;
   }
 }
+
+
+
+.col, *[class*=col-] {
+  text: 255 255 255;
+  background-color: rgb(6, 238, 103);
+  padding: 1.5rem;
+
+
+}
+
+.colo-popular {
+  width: : 300px;
+  float: left;
+  height: 300px;
+  background-color: grey;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+.colo-clothing {
+  width: 200px;
+  height: 300px;
+  float: middle;
+  margin: auto;
+  background-color: grey;
+  padding-left: 80px;
+  padding-top: 50px;
+
+
+}
+
+.colo-deals{
+  width: 200px;
+  height: 300px;
+  float: right;
+  margin: auto;
+  background-color: grey;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+
+
 

@@ -17,5 +17,8 @@
   "directories": {
     "doc": "doc"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  }
 }
