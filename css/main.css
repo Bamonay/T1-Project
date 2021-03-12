@@ -268,7 +268,7 @@ textarea {
 
 
 
-.col, *[class*=col-] {
+.col{
   text: 255 255 255;
   background-color: rgb(6, 238, 103);
   padding: 1.5rem;
@@ -307,6 +307,30 @@ textarea {
   padding-top: 50px;
 }
 
+/*------------------Footer-----------*/
+.row-footer{
+  background: rgb(245, 244, 244);
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
 
+
+.footer-col-1, .footer-col-2{
+  color: #000;
+  margin-bottom: 20px;
+  width: 180px;
+  min-width: 250px;
+}
+
+.footer-col-2{
+
+}
+
+
+
+
+ul{
+  list-style: none;
+}
 
 
